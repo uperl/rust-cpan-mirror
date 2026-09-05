@@ -1,0 +1,18 @@
+[package]
+name = "cpan-mirror"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "cpan_mirror"
+path = "src/lib.rs"
+
+[dependencies]
+anyhow = "1"
+url = "2.5"
+ureq = "2"
+suppaftp = "6"
+cpan-packagedetails = { git = "https://github.com/uperl/rust-cpan-packagedetails" }
+
+[dev-dependencies]
+anyhow = "1"
