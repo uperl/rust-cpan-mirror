@@ -1,6 +1,6 @@
 [package]
 name = "cpan-mirror"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "An interface to a CPAN mirror: resolve a Perl module name to its distribution and fetch the tarball"
 repository = "https://github.com/uperl/rust-cpan-mirror"
